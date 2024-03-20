@@ -1,6 +1,6 @@
 # Update bump details accordingly. Use bump check to confirm.
 # bump: osv-scanner-version /OSV-SCANNER_VERSION="(.*)"/ https://github.com/google/osv-scanner.git|semver:*
-# OSV-SCANNER_VERSION="V.R.M" # Specify a stable release
+# OSV-SCANNER_VERSION="1.7.1" # Specify a stable release
 # export ZOPEN_STABLE_TAG="v${OSV-SCANNER_VERSION}"
 export ZOPEN_STABLE_URL="https://github.com/google/osv-scanner.git"
 export ZOPEN_STABLE_DEPS="comp_go wharf"
